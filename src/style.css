@@ -1,0 +1,47 @@
+/* Custom Styles for Herhiläinen */
+
+/* Selection Color */
+::selection {
+    background-color: #f5be17;
+    color: #1a1a17;
+}
+
+/* Bento Card Hover Effects */
+.bento-card {
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.bento-card:hover {
+    border-color: #f5be17;
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -15px rgba(245, 190, 23, 0.2);
+}
+
+/* Pill Component */
+.pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: rgba(26, 26, 23, 0.05);
+    border: 1px solid rgba(26, 26, 23, 0.1);
+}
+
+/* Brand Shapes */
+.brand-shape {
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Typography Overrides */
+body {
+    background-color: #f7f4e4;
+    color: #1a1a17;
+}
